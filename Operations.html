@@ -1,0 +1,137 @@
+<html>
+<title>Mathmatical Oprations</title>
+<style>
+    body {
+        background-color: grey;
+    }
+</style>
+
+<body>
+    <h2>Mathematical Oprations
+    </h2>
+        <input type="text" value="" id="a" />
+        <br />
+        <input type="text" value="" id="b" />
+        <script>
+            function sum(a, b) {
+                var num1 = parseInt(a);
+                var num2 = parseInt(b);
+                var add = num1 + num2;
+                alert("Sum is " + add);
+            }
+
+        </script>
+
+
+        <input type="button" name="Button" value="Add"
+            onclick='sum(document.getElementById("a").value,document.getElementById("b").value)' />
+
+</body>
+
+</html>
+
+<br /><br />
+
+<html>
+
+<body>
+    <input type="text" value="" id="c" />
+    <br />
+    <input type="text" value="" id="d" />
+    <script>
+        function subtract(c, d) {
+            var num3 = parseInt(c);
+            var num4 = parseInt(d);
+            var subtract = num3 - num4;
+            alert("Difference is " + subtract);
+        }
+
+    </script>
+
+
+    <input type="button" style=name="Button" value="Subtract"
+        onclick='subtract(document.getElementById("c").value,document.getElementById("d").value)' />
+
+</body>
+
+</html>
+
+<br /><br />
+
+<html>
+
+<body>
+    <input type="text" value="" id="e" />
+    <br />
+    <input type="text" value="" id="f" />
+    <script>
+        function multiply(e, f) {
+            var num5 = parseInt(e);
+            var num6 = parseInt(f);
+            var multiply = num5 * num6;
+            alert("Multiple is " + multiply);
+        }
+
+    </script>
+
+
+    <input type="button" name="Button" value="Multiply"
+        onclick='multiply(document.getElementById("e").value,document.getElementById("f").value)' />
+
+</body>
+
+</html>
+
+
+<br /><br />
+
+<html>
+
+<body>
+    <input type="text" value="" id="m" />
+    <br />
+    <input type="text" value="" id="n" />
+    <script>
+        function divide(m, n) {
+            var num9 = parseInt(m);
+            var num10 = parseInt(n);
+            var divide = num9 / num10;
+            alert("Divide is " + divide);
+        }
+
+    </script>
+
+
+    <input type="button" name="Button" value="Divide"
+        onclick='divide(document.getElementById("m").value,document.getElementById("n").value)' />
+
+</body>
+
+</html>
+
+<br /><br />
+
+<html>
+
+<body>
+    <h2>Percentage Calculator
+    </h2>
+        <input type="text" value="" id="g" />
+        <br />
+        <input type="text" value="" id="h" />
+        <script>
+            function percentage(g, h) {
+                var num7 = parseInt(g);
+                var num8 = parseInt(h);
+                var percentage = num7 / num8 * 100;
+                alert("Percentage is " + percentage);
+            }
+
+        </script>
+
+
+        <input type="button" name="Button" value="Percentage"
+            onclick='percentage(document.getElementById("g").value,document.getElementById("h").value)' />
+
+</body>
+</html>
